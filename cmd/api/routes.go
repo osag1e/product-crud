@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"net/http"
 
-	"github.com/osag1e/product-crud/health"
+	"github.com/osag1e/product-crud/db/health"
 	"github.com/osag1e/product-crud/internal/query"
 	"github.com/osag1e/product-crud/service/handlers"
 )
