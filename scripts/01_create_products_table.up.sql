@@ -3,12 +3,12 @@ CREATE SCHEMA IF NOT EXISTS store;
 
 CREATE TABLE IF NOT EXISTS store.products (
     id UUID NOT NULL PRIMARY KEY,
-    brand VARCHAR(255) NOT NULL,
+    brand VARCHAR(50) NOT NULL,
     description VARCHAR(255) NOT NULL,
-    colour VARCHAR(255) NOT NULL,
-    size VARCHAR(255) NOT NULL, 
+    colour VARCHAR(50) NOT NULL,
+    size VARCHAR(50) NOT NULL, 
     price DOUBLE PRECISION,
-    sku VARCHAR(255) NOT NULL,
+    sku VARCHAR(20) NOT NULL,
     UNIQUE(sku)
     );
 
